@@ -3,10 +3,10 @@
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
     url: https://github.com/naye0ng/Grape-Theme # Full URL
     image: "portfolio.png" # path: assets/project/
-    date: 2019.06.09 - Developing
-    title: Grape-Theme
-    summary: A awesome jekyll theme!
-    description: This project is my first jekyll theme. and everyone can customize this easily.
+    date: 2013.07.09 - Done
+    title: Mancala
+    summary: Mancala!
+    description: Visual Basic Mancala
     contents:
       - title: 1. 블로그 첫 화면 구성
         image: home.png
