@@ -1,48 +1,119 @@
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    url: https://github.com/naye0ng/Grape-Theme # Full URL
-    image: "portfolio.png" # path: assets/project/
     date: 2013.07.09 - Done
     title: Mancala
-    summary: Mancala!
-    description: Visual Basic Mancala
+    skills:
+      - Visual Basic
+      - A level
+    description: A level Computing project made in Visual Basic
     contents:
-      - title: 1. 블로그 첫 화면 구성
-        image: home.png
-        description: <li>Responsive Layout</li>
-          <li>User Profile</li>
-          <li>Tags</li>
-          <li>Projects</li>
-          <li>Pagination</li>
-      - title: 2. 태그 페이지
-        image: tags.png
-        description: <li>Responsive Layout</li>
-          <li>Tags</li>
-      - title: 3. 남은 개발 과제
-        image:
-        description: <li>project 부분 디자인 변경</li>
-          <li>favicon.ico, search 기능</li>
-          <li>OG Tag 추가</li>
-          <li>profile 이미지 효과</li>
-          <li>gem 배포</li>
+      - description: For the final project of AS level computing it was required that we develop a game in Visual Basic.
+      - description: The game I chose to develop was mancala, a two player came in which stones are moved around a row of holes in order to capture the opponents. pieces. This game utilized the build in design editor of Visual Basic package we were given.
 
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
     url: # Full URL
     image: # path: assets/project/
-    date: 2019.06.09 - Developing
-    title: Dummy project
-    summary: This is Dummy
-    description:
+    date: 2015.07.23 - Done
+    title: RSPCA Mileage Tracker
+    description: A level Computer poject made in JavaScript
+    skills:
+      - JavaScript
+      - A level
+    contents:
+      - description: For my A level computing project I took on a project converting an existing paper mileage tracking system that was currently in use by my Father at the time into a digital format.
+      - image: "rspca2.png"
+      - description: This allowed the entering of mileage information from either a smart phone or a pc, making the process easier. This was later digitized by the RSPCA in a similar way through the use of google forms.
+      - image: "rspca3.png"
+      - description: To achieve this I created a HTML, CSS, JavaScript using firebase as a backend. The application would produce a paper pdf claim form to then be submitted to RSPCA.
 
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
     url: # Full URL
     image: # path: assets/project/
-    date: 2019.06.09 - Developing
-    title: Dummy project
-    summary: This is dummy aswell
-    description:
+    skills:
+      - React Native
+      - iOS
+      - A level
+    date: 2015.04.09 - Done
+    title: Shakespeare 400 Exhibition iPad App
+    description: React Native iPad App to record visitor testimonials to Shakespeare
+    HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/nCORNVuKsbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
+    url: # Full URL
+    image: # path: assets/project/
+    skills:
+      - JavaScript
+      - 1st Year
+    date: 2015.04.09 - Done
+    title: Music Player
+    description: Web Music Player with on screen keyboard
+    contents:
+      - description: During my first year of univerisity I developed a web music player that featured an on screen keyboard that could also be triggered automatically using the keyboard.
+      - image: "musicplayer.png"
+      - description: The player also featured a search function for searching for songs or albums.
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
+    url: # Full URL
+    image: # path: assets/project/
+    skills:
+      - JavaScript
+      - 1st Year
+    date: 2015.04.09 - Done
+    title: Dreamr
+    description: Android Online Dream Journal
+    contents:
+      - description: In second year of university I completed a project involving the development of an android app.
+      - description: I decided to utilize firebase as it provided a robust login system for handling users. The app allowed users to save dreams they have, with the ability to set up an alarm notification that would take them to the new dream screen.
+      - image: "login.png"
+      - description: Users could then decide to post their dreams to be publicly available board called the dreamscape. Alternively they could post there nightmares to a public board known as the nightscape.
+      - image: "mydreams.png"
+      - description: This screen allowed the user to use speech to text android functionality to enter in their dreams as most users would be too sleepy to type when they had just woken up.
+      - image: "new_dream.png"
+      - description: This project allowed be to develop my Java skills and android knowledge of activities.
+      - image: "nightscape.png"
+      - image: "alarm.png"
+      - image: "profile.png"
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
+    url: # Full URL
+    image: # path: assets/project/
+    skills:
+      - JavaScript
+      - PHP
+      - Wordpress
+      - 2nd Year
+    date: 2015.04.09 - Done
+    title: Socorro
+    description: Help Desk Application
+
+    contents:
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
+    url: http://www.stmaryswarwick.org.uk/
+    image: # path: assets/project/
+    skills:
+      - JavaScript
+      - Expression Engine
+      - Employment
+    date: 2015.04.09 - Done
+    title: Church Website
+    description: Colligiate Church of St Mary Website Redesign
+
+    contents:
+      - description: Original site
+      - image: "stmarys.png"
+      - description: Redesign
+      - image: "stmarysnew.png"
