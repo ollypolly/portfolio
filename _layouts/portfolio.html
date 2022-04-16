@@ -14,12 +14,13 @@ layout: page
       </div>
       <div class="text-wrap col-12 col-md-8">
         <h2 class="username">{{ profile.username }}</h2>
-        {% highlight javascript %}
-        const olly: Array<Ingreidient> = [
+        <pre><code class="javascript">
+        const olly: Ingriedient[] = [ 
             Frontend Web Developer 💻, Skateboarder 🛹, Violinist 🎻, Cat Lover 🐈‍⬛🐈,
             Sugar, Spice, ...everythingNice
           ]
-        {% endhighlight %}
+        </code></pre>
+        
       
 
         <ul id="icons">
@@ -80,3 +81,20 @@ layout: page
     waveHeight: 10.0,
   });
 </script>
+
+<script src="https://unpkg.com/typeit@8.4.0/dist/index.umd.js"></script>
+
+
+<script>
+  // Add element to code block
+const injectionDiv = document.getElementById('inject-here');
+
+  new TypeIt("#typed-text", {
+  strings: "Frontend Web Developer 💻, Skateboarder 🛹, Violinist 🎻, Cat Lover 🐈‍⬛🐈,",
+  speed: 50,
+  }).go();
+</script>
+
+<link rel="stylesheet" href="/assets/css/dracula.css">
+<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>

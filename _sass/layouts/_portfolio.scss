@@ -8,6 +8,15 @@
       justify-content: center;
       flex: 1;
       @extend %page-padding;
+
+      .hljs {
+        background-color: #282a36a7;
+        border-radius: 10px;
+      }
+
+      .username {
+        margin: 1rem 0;
+      }
     }
     .img-wrap {
       text-align: center;
