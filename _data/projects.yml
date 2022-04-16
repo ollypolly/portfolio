@@ -103,7 +103,7 @@
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
     url: http://www.stmaryswarwick.org.uk/
-    image: # path: assets/project/
+    image: "stmarysnew.png"
     skills:
       - JavaScript
       - Expression Engine
@@ -121,7 +121,7 @@
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    image: # path: assets/project/
+    image: "trainbrain2.png"
     skills:
       - JavaScript
       - 3rd Year
@@ -135,7 +135,6 @@
       - description: This system collected data about network rail services using Firebase cloud functions overnight to allow users to make decisions on their train journeys. The website also used certain third party APIs to display informtion about current departure boards, and trains of up to a week prior.
       - description: Screenshots
       - image: "trainbrain1.png"
-      - image: "trainbrain2.png"
       - image: "trainbrain3.png"
       - image: "trainbrain4.png"
       - image: "trainbrain5.png"
@@ -191,7 +190,7 @@
       - Typescript
 
     date: 2015.04.09 - Done
-    title: OSRS Fashion
+    title: PokéTrack
     description: Pokémon card collection tracker, used React Spring to achieve a physical feel to the cards
 
 - project:
