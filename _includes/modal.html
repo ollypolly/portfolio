@@ -12,7 +12,7 @@
     </div>
     <div class="content">
       {% if project.image %}
-      <img src="{{ site.url }}/assets/project/{{ project.image }}" alt="" />
+      <img src="/assets/project/{{ project.image }}" alt="" />
       {% endif%}
       <div class="description">{{ project.description }}</div>
       {% for content in project.contents %}
@@ -20,7 +20,7 @@
         <div class="title">{{ content.title }}</div>
         {% if content.image %}
         <img
-          src="{{ site.url }}/assets/project/{{ content.image }}"
+          src="/assets/project/{{ content.image }}"
           alt="{{ content.title }}"
         />
         {% endif %}
