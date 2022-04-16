@@ -193,3 +193,17 @@
     date: 2015.04.09 - Done
     title: OSRS Fashion
     description: Pokémon card collection tracker, used React Spring to achieve a physical feel to the cards
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
+    image: # path: assets/project/
+    url: https://poketrack.olly.live
+    skills:
+      - React
+      - Redux Toolkit
+      - Typescript
+
+    date: 2015.04.09 - Done
+    title: OSRS Fashion
+    description: Pokémon card collection tracker, used React Spring to achieve a physical feel to the cards

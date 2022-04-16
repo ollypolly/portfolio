@@ -13,16 +13,16 @@ theme_settings:
     username: Olly Pethick
     description: Frontend Web Developer
     experience:
-      - start: 2017-05-03
+      - start: 2019-09-01
         end: Present
         experience: Kwalee, Frontend Web Developer
 
-      - start: 2017-05-03
-        end: 2018-05-06
-        experience: Colligiate Church of St Mary's Warwick, title
+      - start: 2017-07-03
+        end: 2019-07-04
+        experience: Colligiate Church of St Mary's Warwick, Technical Advisor
 
-      - start: 2017-05-03
-        end: 2018-05-06
+      - start: 2017-03-03
+        end: 2019-03-06
         experience: Loughborough Student's Union, eLearning Developer
     skills:
       - skill: React
@@ -32,6 +32,8 @@ theme_settings:
       - skill: Typescript
         value: 85 # Percent value
       - skill: Next.js
+        value: 65 # Percent value
+      - skill: React Native
         value: 65 # Percent value
 
   # Icons
