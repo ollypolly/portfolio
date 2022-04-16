@@ -9,21 +9,35 @@ theme_settings:
 
   # Profile Settings
   profile:
-    image: assets/img/smile.png
+    image: assets/img/profilephoto.jpeg
     username: Olly Pethick
     description: Frontend Web Developer
     experience:
       - start: 2017-05-03
+        end: Present
+        experience: Kwalee, Frontend Web Developer
+
+      - start: 2017-05-03
         end: 2018-05-06
-        experience: company name, title
+        experience: Colligiate Church of St Mary's Warwick, title
+
+      - start: 2017-05-03
+        end: 2018-05-06
+        experience: Loughborough Student's Union, eLearning Developer
     skills:
-      - skill: HTML5 & CSS
+      - skill: React
         value: 85 # Percent value
+      - skill: Redux
+        value: 85 # Percent value
+      - skill: Typescript
+        value: 85 # Percent value
+      - skill: Next.js
+        value: 65 # Percent value
 
   # Icons
   icons:
-    email: # Full email address, e.g. "sample@google.com"
-    linkedin: # Full URL
+    email: ollypethick@gmail.com
+    linkedin: https://www.linkedin.com/in/ollypethick/
     github: ollypolly
     gitlab:
     bitbucket:
@@ -32,6 +46,7 @@ theme_settings:
     youtube:
     facebook:
     instagram:
+    cv: https://drive.google.com/file/d/1W24GQMa8EUGLAcFVtEizHe-unZhFP47E/view?usp=sharing
 
   # Disqus
   disqus_shortname:

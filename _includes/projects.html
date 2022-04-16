@@ -1,6 +1,13 @@
 <section id="project">
   <div class="project-wrap">
     <p class="title">PROJECTS 🙋🏻</p>
+    <ul>
+      <li>A level</li>
+      <li>1st Year</li>
+      <li>2nd Year</li>
+      <li>3rd Year</li>
+      <li>Employment</li>
+    </ul>
     <div class="card-container">
       {% assign sorted = site.data.projects | sort: 'date' | reverse %} {% for _
       in sorted %} {% assign project = _.project %} {% assign id = id | plus: 1
@@ -29,9 +36,7 @@
           </div>
           <div class="icons">
             {% if project.url %} {% assign url = project.url %}
-            <a href="{{ url }}/subscription"><i class="far fa-eye"></i></a>
-            <a href="{{ url }}"><i class="fas fa-star"></i></a>
-            <a href="{{ url }}/fork"><i class="fas fa-code-branch"></i></a>
+            <a href="{{ url }}" target="_blank"><i class="far fa-eye"></i></a>
             {% endif %} {% if project.modal %}
             <a
               title="{{ id }}"

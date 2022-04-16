@@ -117,3 +117,79 @@
       - image: "stmarys.png"
       - description: Redesign
       - image: "stmarysnew.png"
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
+    image: # path: assets/project/
+    skills:
+      - JavaScript
+      - 3rd Year
+      - React
+    date: 2015.04.09 - Done
+    title: TrainBrain
+    description: National/Network Rail Services Analytics Website
+
+    contents:
+      - description: For my Final Year Project at university I developed a web application using React, Redux and Firebase.
+      - description: This system collected data about network rail services using Firebase cloud functions overnight to allow users to make decisions on their train journeys. The website also used certain third party APIs to display informtion about current departure boards, and trains of up to a week prior.
+      - description: Screenshots
+      - image: "trainbrain1.png"
+      - image: "trainbrain2.png"
+      - image: "trainbrain3.png"
+      - image: "trainbrain4.png"
+      - image: "trainbrain5.png"
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
+    image: # path: assets/project/
+    skills:
+      - React
+      - Express
+      - MongoDB
+      - Node.js
+      - Employment
+    date: 2015.04.09 - Done
+    title: Events Ticketing System
+    description: Colligiate Church of St Mary Website Events Ticketing System
+
+    contents:
+      - description: I developed an update to the website I redesigned in 2018. This system provided a method of accepting payment and providing tickets for events held at the venue. The website also features an admin view to manage and create events and tickets.
+      - description: This system is built using React, Express, MongoDB, Node, GraphQL and Stripe.
+      - description: Screenshots
+      - image: "events1.png"
+      - image: "events2.png"
+      - image: "events3.png"
+      - image: "events4.png"
+      - image: "events5.png"
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
+    image: # path: assets/project/
+    skills:
+      - React
+      - Redux Toolkit
+      - Typescript
+
+    url: https://osrs.olly.live
+    date: 2015.04.09 - Done
+    title: OSRS Fashion
+    description: Website for creating and sharing Runescape loadouts
+
+    contents:
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
+    image: # path: assets/project/
+    url: https://poketrack.olly.live
+    skills:
+      - React
+      - Redux Toolkit
+      - Typescript
+
+    date: 2015.04.09 - Done
+    title: OSRS Fashion
+    description: Pokémon card collection tracker, used React Spring to achieve a physical feel to the cards
