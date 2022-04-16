@@ -2,6 +2,11 @@
   #about-me {
     position: relative;
     .row {
+      display: flex;
+      min-height: 500px;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
       @extend %page-padding;
     }
     .img-wrap {
@@ -88,6 +93,7 @@
             color: rgba(0, 0, 0, 0.5);
           }
           .description {
+            line-height: 1.2rem;
             font-size: 1rem;
           }
         }

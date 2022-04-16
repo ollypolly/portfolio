@@ -14,7 +14,13 @@ layout: page
       </div>
       <div class="text-wrap col-12 col-md-8">
         <h2 class="username">{{ profile.username }}</h2>
-        <p class="description">{{ profile.description }}</p>
+        {% highlight javascript %}
+        const olly: Array<Ingreidient> = [
+            Frontend Web Developer 💻, Skateboarder 🛹, Violinist 🎻, Cat Lover 🐈‍⬛🐈,
+            Sugar, Spice, ...everythingNice
+          ]
+        {% endhighlight %}
+      
 
         <ul id="icons">
           {% include icons.html %}
