@@ -198,12 +198,45 @@
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
     image: # path: assets/project/
-    url: https://poketrack.olly.live
     skills:
-      - React
+      - Expo
+      - React Native
       - Redux Toolkit
       - Typescript
 
-    date: 2015.04.09 - Done
-    title: OSRS Fashion
-    description: Pokémon card collection tracker, used React Spring to achieve a physical feel to the cards
+    date: 2021.04.09 - 2021.10.23
+    title: Chapter
+    description: Social reading tracker iOS app similar to Strava
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
+    image: # path: assets/project/
+    skills:
+      - Next.js
+      - Prismic
+      - Firebase
+      - Typescript
+
+    date: 2021.04.09 - 2021.10.23
+    title: Wedding Website
+    description: Social reading tracker iOS app similar to Strava
+    contents:
+      - description: Account system to allow users to log in and RSVP to Ceremony/Reception
+      - description: Uses Prismic as CMS to provide feature rich page builder for client utilising slice machine
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
+    image: # path: assets/project/
+    url: https://kwordle.olly.live
+    skills:
+      - React
+      - Typescript
+      - Node.js
+
+    date: 2021.04.09 - 2021.10.23
+    title: Kwordle
+    description: Wordle Clone using Play store data on Kwalee's games
+    contents:
+      - description: Used Node.js to scrape Google Play data on Kwalee\’s games
