@@ -1,9 +1,9 @@
 #project {
   position: relative;
   overflow: hidden;
-  .project-wrap{
+  .project-wrap {
     @extend %page-padding;
-    padding-top: 50px!important;
+    padding-top: 50px !important;
     margin-bottom: 55px;
     p.title {
       padding-left: 10px;
@@ -33,11 +33,11 @@
       display: inline-block;
       width: 100%;
       .card {
-        -webkit-transition-duration: 0.8s;
-        -moz-transition-duration: 0.8s;
-        -ms-transition-duration: 0.8s;
-        -o-transition-duration: 0.8s;
-        transition-duration: 0.8s;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -ms-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
         -webkit-transform: scale(1);
         -moz-transform: scale(1);
         -ms-transform: scale(1);
@@ -95,37 +95,37 @@
             overflow: hidden;
           }
         }
-        .icons{
+        .icons {
           margin-bottom: 20px;
           padding-right: 25px;
-            float: right;
-            a {
-              margin-left: 8px;
-              text-align: center;
-              i {
-                width: 30px;
-                height: 30px;
-                background-color: rgba(0, 0, 0, 0.07);
-                border-radius: 50%;
-                font-size: 0.8rem;
-                line-height: 1.8rem;
-              }
+          float: right;
+          a {
+            margin-left: 8px;
+            text-align: center;
+            i {
+              width: 30px;
+              height: 30px;
+              background-color: rgba(0, 0, 0, 0.07);
+              border-radius: 50%;
+              font-size: 0.8rem;
+              line-height: 1.8rem;
             }
-            a.modal-btn i {
-              background-color: $theme-dark;
-              color: #fff;
-              font-size: 0.75rem;
-            }
+          }
+          a.modal-btn i {
+            background-color: $theme-dark;
+            color: #fff;
+            font-size: 0.75rem;
+          }
         }
       }
-      .card:hover{
+      .card:hover {
         -webkit-transform: scale(1.03);
         -moz-transform: scale(1.03);
         -ms-transform: scale(1.03);
         -o-transform: scale(1.03);
         transform: scale(1.03);
         box-shadow: rgba($theme-dark2, 0.15) 0px 5px 15px;
-        .icons{
+        .icons {
           a {
             i {
               -webkit-transition-duration: 0.5s;
