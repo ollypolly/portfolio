@@ -41,14 +41,7 @@ layout: page
       <p class="title">SKILLS</p>
       <ul class="skill-list">
         {% for _ in profile.skills %}
-        <li class="skill">
-          <p class="name">{{ _.skill }}</p>
-          <div class="progress">
-            <div class="progress-bar" style="width: {{ _.value }}%">
-              <div class="progress-value"></div>
-            </div>
-          </div>
-        </li>
+        <span class="tag">{{ _.skill }}</span>
         {% endfor %}
       </ul>
     </article>
@@ -91,7 +84,7 @@ const injectionDiv = document.getElementById('inject-here');
   new TypeIt("#typed-text", {
   speed: 30,
   })
-  .type('const olly: Array<Ingredient> = [')
+  .type('const olly: Ingredient[] = [')
   .break()
   .type('    Designer, ')
   .pause(200)

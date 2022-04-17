@@ -24,22 +24,31 @@ theme_settings:
       - start: 2017-03-03
         end: 2019-03-06
         experience: Loughborough Student's Union, eLearning Developer
+    education:
+      - start: 2016-09-01
+        end: 2019-06-01
+        experience: Loughborough University, Computer Science, 1st Class Honours
     skills:
       - skill: React
-        value: 85 # Percent value
       - skill: Redux
-        value: 85 # Percent value
+      - skill: JavaScript
       - skill: Typescript
-        value: 85 # Percent value
       - skill: Next.js
-        value: 65 # Percent value
       - skill: React Native
-        value: 65 # Percent value
+      - skill: HTML5
+      - skill: CSS
+      - skill: SASS
+      - skill: Less
+      - skill: Git
+      - skill: Jekyll
+      - skill: Wordpress
+      - skill: Docker
+      - skill: npm
 
   # Icons
   icons:
     email: ollypethick@gmail.com
-    linkedin: https://www.linkedin.com/in/ollypethick/
+    linkedin: linkedin://www.linkedin.com/in/ollypethick/
     github: ollypolly
     gitlab:
     bitbucket:
@@ -48,7 +57,7 @@ theme_settings:
     youtube:
     facebook:
     instagram:
-    cv: https://docs.google.com/document/d/1kW18bogdH2AmShARyjFH5OapL8zBxUP65ezb5QAZFhE/edit?usp=sharing
+    cv: https://drive.google.com/file/d/1PIT45-oSgB05l908WjL5bXLJTVbdsa5S/view?usp=sharing
   # Disqus
   disqus_shortname:
 

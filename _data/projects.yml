@@ -159,7 +159,7 @@
       - Redux Toolkit
       - Typescript
 
-    date: 2021.04.09
+    date: 2021.10.09
     title: Chapter
     description: Social reading tracker iOS app similar to Strava
 
@@ -195,3 +195,18 @@
     description: Wordle Clone using Play store data on Kwalee's games
     contents:
       - description: Used Node.js to scrape Google Play data on Kwalee\’s games
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
+
+    skills:
+      - React
+      - Typescript
+      - Python
+
+    date: 2020.03.09
+    title: Codelingo
+    description: Duolingo Clone that instead tests your coding ability
+    contents:
+      - description: Duolingo Clone that instead tests your coding ability
