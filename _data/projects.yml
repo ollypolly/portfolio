@@ -118,6 +118,7 @@
     description: Website for creating and sharing Runescape loadouts
 
     contents:
+      description: I added virtualisation to the dropdown list of items due to the large number of items possible in each slot
 
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
