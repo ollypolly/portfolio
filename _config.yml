@@ -13,9 +13,13 @@ theme_settings:
     username: Olly Pethick
     description: Frontend Web Developer
     experience:
-      - start: 2019-09-01
+      - start: 2021-11-01
         end: Present
         experience: Kwalee, Frontend Web Developer
+
+      - start: 2019-09-01
+        end: 2021-11-01
+        experience: Kwalee, Junior Frontend Web Developer
 
       - start: 2017-07-03
         end: 2019-07-04
@@ -28,12 +32,21 @@ theme_settings:
       - start: 2016-09-01
         end: 2019-06-01
         experience: Loughborough University, Computer Science, 1st Class Honours
+
+      - start: 2016-09-01
+        end: 2019-06-01
+        experience: King Edward VI Sixth Forth, A Levels
+
+      - start: 2016-09-01
+        end: 2019-06-01
+        experience: Princethorpe College, GSCEs
     skills:
       - skill: React
-      - skill: Redux
+      - skill: Redux Toolkit
       - skill: JavaScript
-      - skill: Typescript
+      - skill: TypeScript
       - skill: Next.js
+      - skill: Gatsby
       - skill: React Native
       - skill: HTML5
       - skill: CSS
@@ -44,11 +57,19 @@ theme_settings:
       - skill: Wordpress
       - skill: Docker
       - skill: npm
+      - skill: Node.js
+      - skill: Express
+    achievements:
+      - achievement: LEN Enterprising Society of the Year 2018
+      - achievement: Oxford Hack - Prize Winner
+      - achievement: Warwick Hack - Prize Winner
+      - achievement: Violin - Grade 5
+      - achievement: RSC Music Award - Silver
 
   # Icons
   icons:
     email: ollypethick@gmail.com
-    linkedin: linkedin://www.linkedin.com/in/ollypethick/
+    linkedin: https://www.linkedin.com/in/ollypethick/
     github: ollypolly
     gitlab:
     bitbucket:

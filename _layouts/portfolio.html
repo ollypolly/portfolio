@@ -27,9 +27,21 @@ layout: page
   <!-- career section -->
   <section id="career" class="row">
     <article class="exper col-12 col-md-6">
-      <p class="title">EXPERIENCE</p>
+      <p class="title">WORK</p>
       <ul class="exper-list">
         {% for exp in  profile.experience %}
+        <li class="meta">
+          <p class="date">{{ exp.start }} ~ {{ exp.end }}</p>
+          <p class="description">{{ exp.experience }}</p>
+        </li>
+        {% endfor %}
+      </ul>
+      
+    </article>
+    <article class="exper col-12 col-md-6">
+      <p class="title">EDUCATION</p>
+      <ul class="exper-list">
+        {% for exp in  profile.education %}
         <li class="meta">
           <p class="date">{{ exp.start }} ~ {{ exp.end }}</p>
           <p class="description">{{ exp.experience }}</p>
@@ -42,6 +54,15 @@ layout: page
       <ul class="skill-list">
         {% for _ in profile.skills %}
         <span class="tag">{{ _.skill }}</span>
+        {% endfor %}
+      </ul>
+      
+    </article>
+    <article class="skills col-12 col-md-6">
+      <p class="title">ACHIEVEMENTS</p>
+      <ul class="skill-list">
+        {% for _ in profile.achievements %}
+        <span class="tag">{{ _.achievement }}</span>
         {% endfor %}
       </ul>
     </article>
