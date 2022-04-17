@@ -26,6 +26,11 @@ header {
       .current.btn-nav:hover {
         color: $theme-color;
       }
+      .btn-nav {
+        strong {
+          color: $theme-color;
+        }
+      }
       .btn-nav::after {
         content: " ";
         position: relative;

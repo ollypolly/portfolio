@@ -13,9 +13,13 @@ theme_settings:
     username: Olly Pethick
     description: Frontend Web Developer
     experience:
-      - start: 2019-09-01
+      - start: 2021-11-01
         end: Present
         experience: Kwalee, Frontend Web Developer
+
+      - start: 2019-09-01
+        end: 2021-11-01
+        experience: Kwalee, Junior Frontend Web Developer
 
       - start: 2017-07-03
         end: 2019-07-04
@@ -34,6 +38,7 @@ theme_settings:
       - skill: JavaScript
       - skill: TypeScript
       - skill: Next.js
+      - skill: Gatsby
       - skill: React Native
       - skill: HTML5
       - skill: CSS
@@ -44,6 +49,8 @@ theme_settings:
       - skill: Wordpress
       - skill: Docker
       - skill: npm
+      - skill: Node.js
+      - skill: Express
     achievements:
       - achievement: LEN Enterprising Society of the Year 2018
       - achievement: Oxford Hack - Prize Winner

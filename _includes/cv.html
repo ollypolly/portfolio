@@ -1,14 +1,15 @@
 <section id="project">
   <div class="project-wrap">
+    {% if icons.cv %}
     <p class="title text-center mb-4">DOWNLOAD CV</p>
     <div class="card-container text-center">
-      If you need a more minimal version of my CV, you can download the trusty
-      one page pdf here: {% if icons.cv %}
-
-      <a target="_blank" href="{{ icons.cv }}">CV</a>
-
-      {% endif %}
+      If you need a more minimal version of my CV, you can view the trusty one
+      page pdf here:
+      <div class="mt-4">
+        <a target="_blank" class="link-button" href="{{ icons.cv }}">View CV</a>
+      </div>
     </div>
+    {% endif %}
   </div>
 </section>
 

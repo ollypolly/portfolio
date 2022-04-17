@@ -183,7 +183,7 @@ ul {
 em {
   font-size: 15px;
 }
-a:link,
+
 a:visited,
 a:active {
   color: $text;
@@ -193,6 +193,28 @@ a:hover {
   color: $theme-color;
   text-decoration: underline;
 }
+
+.link-button {
+  background-color: #0e8cd8;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-right: 3px;
+  padding: 1px 15px 0px;
+  border-radius: 4px;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.85rem;
+  line-height: 35px;
+  letter-spacing: -0.03rem;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #117dc0;
+    text-decoration: none;
+    color: #fff !important;
+  }
+}
+
 .container {
   padding-top: 20px;
   padding-bottom: 20px;
