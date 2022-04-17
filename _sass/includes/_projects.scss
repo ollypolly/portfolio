@@ -13,23 +13,12 @@
     }
   }
   .card-container {
-    overflow: hidden;
-    column-count: 3;
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    @media (max-width: 1200px) {
-      column-count: 2;
-      -webkit-column-count: 2;
-      -moz-column-count: 2;
-    }
-    @media (max-width: 576px) {
-      column-count: 1;
-      -webkit-column-count: 1;
-      -moz-column-count: 1;
-    }
+    column-count: 1;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
     .card-wrapper {
       padding: 8px 10px;
-      margin: 10px auto;
+      margin: 5px auto;
       display: inline-block;
       width: 100%;
       .card {
@@ -43,12 +32,14 @@
         -ms-transform: scale(1);
         -o-transform: scale(1);
         transform: scale(1);
+        display: flex;
 
         overflow: hidden;
         background-color: #fff;
         border-radius: 10px;
         box-shadow: rgba($theme-dark2, 0.15) 0px 1px 5px;
         .img-wrap {
+          width: 50%;
           position: relative;
           overflow: hidden;
           height: 200px;
@@ -69,6 +60,7 @@
           background-color: rgba(0, 0, 0, 0.05);
         }
         .text-wrap {
+          width: 50%;
           padding: 20px 25px;
           // height: 180px;
           .title {
@@ -82,7 +74,6 @@
           }
           .meta,
           .meta span {
-            color: rgba(0, 0, 0, 0.5);
             font-size: 0.75rem;
             margin: 3px 0 10px;
           }
@@ -93,6 +84,22 @@
             -webkit-box-orient: vertical;
             -webkit-line-clamp: 4;
             overflow: hidden;
+          }
+        }
+        .tag-wrap {
+          display: inline-block;
+          .tag-sm {
+            display: inline-block;
+            background-color: rgba(0, 0, 0, 0.07);
+            margin-right: 3px;
+            padding: 2px 9px;
+            border-radius: 15px;
+            color: $text-gray;
+            font-size: 0.75rem;
+          }
+          .tag-sm:hover {
+            background-color: $theme-color;
+            color: #fff;
           }
         }
         .icons {

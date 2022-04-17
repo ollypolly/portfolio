@@ -17,24 +17,12 @@
               <p class="date">{{ project.date }}</p>
               <div class="title">{{ project.title }}</div>
             </div>
-            <div class="meta">
-              {% if project.skills %} &middot; {% for skill in project.skills %}
-              <span>#{{ skill }}</span>
+            <ul class="tag-wrap">
+              {% if project.skills %} {% for skill in project.skills %}
+              <li class="tag-sm">#{{ skill }}</li>
               {% endfor %} {% endif %}
-            </div>
+            </il>
             <div class="description">{{ project.description }}</div>
-          </div>
-          <div class="icons">
-            {% if project.url %} {% assign url = project.url %}
-            <a href="{{ url }}" target="_blank"><i class="far fa-eye"></i></a>
-            {% endif %} {% if project.modal %}
-            <a
-              title="{{ id }}"
-              onClick="open_modal(this.title)"
-              class="modal-btn"
-              ><i class="fas fa-plus"></i
-            ></a>
-            {% endif %}
           </div>
         </div>
       </div>
