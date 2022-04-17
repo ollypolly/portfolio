@@ -12,7 +12,7 @@
       pre {
         margin: 2rem;
         margin-left: 0;
-        min-width: 300px;
+        min-width: 400px;
         min-height: 100px;
         white-space: pre-wrap; /* css-3 */
         white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
@@ -23,6 +23,7 @@
 
       @media (max-width: 576px) {
         pre {
+          min-width: 300px;
           margin: 0;
         }
 
@@ -55,7 +56,9 @@
     }
     .img-wrap {
       text-align: center;
+
       .img {
+        box-shadow: rgba($theme-dark2, 0.15) 0px 1px 5px;
         overflow: hidden;
         display: inline-block;
         width: 180px;
@@ -225,4 +228,10 @@
       }
     }
   }
+}
+
+iframe {
+  /* override other styles to make responsive */
+  width: 100% !important;
+  height: 400px !important;
 }

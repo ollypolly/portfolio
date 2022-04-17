@@ -3,6 +3,7 @@
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
     url: # Full URL
     image: "shakespeare.png"
+    youtube: nCORNVuKsbA
     skills:
       - React Native
       - iOS
