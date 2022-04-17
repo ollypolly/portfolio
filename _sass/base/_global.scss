@@ -194,8 +194,13 @@ a:hover {
   text-decoration: underline;
 }
 .container {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  @media (max-width: 769px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 .row {
   margin: auto 0px;
