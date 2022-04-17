@@ -1,22 +1,9 @@
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    date: 2013.07.09 - Done
-    title: Mancala
-    skills:
-      - Visual Basic
-      - A level
-    description: A level Computing project made in Visual Basic
-    contents:
-      - description: For the final project of AS level computing it was required that we develop a game in Visual Basic.
-      - description: The game I chose to develop was mancala, a two player came in which stones are moved around a row of holes in order to capture the opponents. pieces. This game utilized the build in design editor of Visual Basic package we were given.
-
-- project:
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
     url: # Full URL
     image: # path: assets/project/
-    date: 2015.07.23 - Done
+    date: 2015.07.23
     title: RSPCA Mileage Tracker
     description: A level Computer poject made in JavaScript
     skills:
@@ -38,7 +25,7 @@
       - React Native
       - iOS
       - A level
-    date: 2015.04.09 - Done
+    date: 2015.04.09
     title: Shakespeare 400 Exhibition iPad App
     description: React Native iPad App to record visitor testimonials to Shakespeare
     HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/nCORNVuKsbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -51,7 +38,7 @@
     skills:
       - JavaScript
       - 1st Year
-    date: 2015.04.09 - Done
+    date: 2017.04.09
     title: Music Player
     description: Web Music Player with on screen keyboard
     contents:
@@ -67,7 +54,7 @@
     skills:
       - JavaScript
       - 1st Year
-    date: 2015.04.09 - Done
+    date: 2018.04.09
     title: Dreamr
     description: Android Online Dream Journal
     contents:
@@ -93,7 +80,7 @@
       - PHP
       - Wordpress
       - 2nd Year
-    date: 2015.04.09 - Done
+    date: 2018.04.09
     title: Socorro
     description: Help Desk Application
 
@@ -108,7 +95,7 @@
       - JavaScript
       - Expression Engine
       - Employment
-    date: 2015.04.09 - Done
+    date: 2018.04.09
     title: Church Website
     description: Colligiate Church of St Mary Website Redesign
 
@@ -126,7 +113,7 @@
       - JavaScript
       - 3rd Year
       - React
-    date: 2015.04.09 - Done
+    date: 2019.04.09
     title: TrainBrain
     description: National/Network Rail Services Analytics Website
 
@@ -149,7 +136,7 @@
       - MongoDB
       - Node.js
       - Employment
-    date: 2015.04.09 - Done
+    date: 2019.04.09
     title: Events Ticketing System
     description: Colligiate Church of St Mary Website Events Ticketing System
 
@@ -173,7 +160,7 @@
       - Typescript
 
     url: https://osrs.olly.live
-    date: 2015.04.09 - Done
+    date: 2015.04.09
     title: OSRS Fashion
     description: Website for creating and sharing Runescape loadouts
 
@@ -189,7 +176,7 @@
       - Redux Toolkit
       - Typescript
 
-    date: 2015.04.09 - Done
+    date: 2015.04.09
     title: PokéTrack
     description: Pokémon card collection tracker, used React Spring to achieve a physical feel to the cards
 
@@ -203,7 +190,7 @@
       - Redux Toolkit
       - Typescript
 
-    date: 2021.04.09 - 2021.10.23
+    date: 2021.04.09
     title: Chapter
     description: Social reading tracker iOS app similar to Strava
 
@@ -217,9 +204,9 @@
       - Firebase
       - Typescript
 
-    date: 2021.04.09 - 2021.10.23
+    date: 2021.04.09
     title: Wedding Website
-    description: Social reading tracker iOS app similar to Strava
+    description: Wedding RSVP and blog website made for family member
     contents:
       - description: Account system to allow users to log in and RSVP to Ceremony/Reception
       - description: Uses Prismic as CMS to provide feature rich page builder for client utilising slice machine
@@ -234,7 +221,7 @@
       - Typescript
       - Node.js
 
-    date: 2021.04.09 - 2021.10.23
+    date: 2021.04.09
     title: Kwordle
     description: Wordle Clone using Play store data on Kwalee's games
     contents:
