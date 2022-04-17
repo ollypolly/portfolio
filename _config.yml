@@ -32,6 +32,14 @@ theme_settings:
       - start: 2016-09-01
         end: 2019-06-01
         experience: Loughborough University, Computer Science, 1st Class Honours
+
+      - start: 2016-09-01
+        end: 2019-06-01
+        experience: King Edward VI Sixth Forth, A Levels
+
+      - start: 2016-09-01
+        end: 2019-06-01
+        experience: Princethorpe College, GSCEs
     skills:
       - skill: React
       - skill: Redux Toolkit
@@ -61,7 +69,7 @@ theme_settings:
   # Icons
   icons:
     email: ollypethick@gmail.com
-    linkedin: linkedin://www.linkedin.com/in/ollypethick/
+    linkedin: https://www.linkedin.com/in/ollypethick/
     github: ollypolly
     gitlab:
     bitbucket:
