@@ -2,7 +2,7 @@
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
     url: # Full URL
-    image: # path: assets/project/
+    image: "shakespeare.png"
     skills:
       - React Native
       - iOS
@@ -151,7 +151,7 @@
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    image: # path: assets/project/
+    image: "chapter.png"
     skills:
       - Expo
       - React Native

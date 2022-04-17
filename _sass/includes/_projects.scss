@@ -6,7 +6,8 @@
     padding-top: 50px !important;
     margin-bottom: 55px;
     p.title {
-      padding-left: 10px;
+      text-align: center;
+      margin-bottom: 50px;
       color: $theme-dark;
       font-size: 25px;
       font-weight: 600;
@@ -43,6 +44,7 @@
         background-color: #fff;
         border-radius: 10px;
         box-shadow: rgba($theme-dark2, 0.15) 0px 1px 5px;
+
         &:hover {
           background-color: rgb(236, 246, 255);
         }
@@ -95,6 +97,22 @@
             overflow: hidden;
           }
         }
+
+        @media (max-width: 576px) {
+          flex-direction: column;
+          .text-wrap {
+            width: 100%;
+          }
+
+          .img-wrap {
+            position: relative;
+            left: 0;
+            margin: 5px 0;
+            padding: 0 10px;
+            width: 100%;
+          }
+        }
+
         .tag-wrap {
           display: inline-block;
           .tag-sm {
