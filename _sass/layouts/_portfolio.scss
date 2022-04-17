@@ -72,6 +72,15 @@
       top: -55px;
       background-color: $theme-dark;
     }
+    .bg-overlay {
+      content: "";
+      z-index: -1;
+      position: absolute;
+      width: 100%;
+      height: calc(100% - 50px);
+      top: 25px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
   }
   #career {
     @extend %page-padding;

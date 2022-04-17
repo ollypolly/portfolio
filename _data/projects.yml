@@ -3,24 +3,6 @@
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
     url: # Full URL
     image: # path: assets/project/
-    date: 2015.07.23
-    title: RSPCA Mileage Tracker
-    description: A level Computer poject made in JavaScript
-    skills:
-      - JavaScript
-      - A level
-    contents:
-      - description: For my A level computing project I took on a project converting an existing paper mileage tracking system that was currently in use by my Father at the time into a digital format.
-      - image: "rspca2.png"
-      - description: This allowed the entering of mileage information from either a smart phone or a pc, making the process easier. This was later digitized by the RSPCA in a similar way through the use of google forms.
-      - image: "rspca3.png"
-      - description: To achieve this I created a HTML, CSS, JavaScript using firebase as a backend. The application would produce a paper pdf claim form to then be submitted to RSPCA.
-
-- project:
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    url: # Full URL
-    image: # path: assets/project/
     skills:
       - React Native
       - iOS
@@ -36,23 +18,8 @@
     url: # Full URL
     image: # path: assets/project/
     skills:
-      - JavaScript
-      - 1st Year
-    date: 2017.04.09
-    title: Music Player
-    description: Web Music Player with on screen keyboard
-    contents:
-      - description: During my first year of univerisity I developed a web music player that featured an on screen keyboard that could also be triggered automatically using the keyboard.
-      - image: "musicplayer.png"
-      - description: The player also featured a search function for searching for songs or albums.
-
-- project:
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    url: # Full URL
-    image: # path: assets/project/
-    skills:
-      - JavaScript
+      - Android
+      - Java
       - 1st Year
     date: 2018.04.09
     title: Dreamr

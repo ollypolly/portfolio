@@ -6,7 +6,8 @@
       in sorted %} {% assign project = _.project %} {% assign id = id | plus: 1
       %}
       <div class="card-wrapper">
-        <div class="card">
+        <div title="{{ id }}"
+        onClick="open_modal(this.title)" class="card">
           {% if project.image %}
           <div class="img-wrap">
             <img src="/assets/project/{{ project.image }}" alt="" />
