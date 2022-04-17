@@ -16,10 +16,11 @@
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
     url: # Full URL
-    image: # path: assets/project/
+    image: "login.png"
     skills:
       - Android
       - Java
+      - Firebase
       - 1st Year
     date: 2018.04.09
     title: Dreamr
@@ -41,7 +42,7 @@
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
     url: # Full URL
-    image: # path: assets/project/
+    image: "socorro1.png"
     skills:
       - JavaScript
       - PHP
@@ -77,9 +78,9 @@
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
     image: "trainbrain2.png"
     skills:
-      - JavaScript
-      - 3rd Year
       - React
+      - Firebase
+      - 3rd Year
     date: 2019.04.09
     title: TrainBrain
     description: National/Network Rail Services Analytics Website
@@ -96,12 +97,12 @@
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    image: # path: assets/project/
+    image: "events1.png"
     skills:
       - React
       - Express
-      - MongoDB
       - Node.js
+      - Firebase
       - Employment
     date: 2019.04.09
     title: Events Ticketing System
@@ -120,7 +121,7 @@
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    image: # path: assets/project/
+    image: "osrs.png"
     skills:
       - React
       - Redux Toolkit
@@ -136,7 +137,7 @@
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    image: # path: assets/project/
+    image: "poketrack.png"
     url: https://poketrack.olly.live
     skills:
       - React
@@ -164,7 +165,7 @@
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    image: # path: assets/project/
+    image: "wedding.png"
     skills:
       - Next.js
       - Prismic
@@ -181,7 +182,7 @@
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    image: # path: assets/project/
+    image: "kwordle.png"
     url: https://kwordle.olly.live
     skills:
       - React
