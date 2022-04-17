@@ -9,9 +9,24 @@
         <div title="{{ id }}"
         onClick="open_modal(this.title)" class="card">
           {% if project.image %}
-          <div class="img-wrap">
+          {% assign has_link = !!project.url %}
+          {% assign custom_classes = '' %}
+          {% if has_link  %}
+            {% assign custom_classes = custom_classes | append: 'has-link' %}
+          {% endif %}
+          {% if has_link  %}
+          <a target="_blank" href="{{ project.url }}">
+            <div class="img-wrap {{ custom_classes }}">
+              <img src="/assets/project/{{ project.image }}" alt="" />
+            </div>
+          </a>
+          {% else %}
+          <div class="img-wrap {{ custom_classes }}">
             <img src="/assets/project/{{ project.image }}" alt="" />
           </div>
+          {% endif %}
+          
+          
           {% endif %}
           <div class="text-wrap {% if project.image %}{% endif %}">
             <div class="title-wrap">
