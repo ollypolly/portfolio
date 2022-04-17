@@ -14,11 +14,8 @@ layout: page
       </div>
       <div class="text-wrap col-12 col-md-8">
         <h2 class="username">{{ profile.username }}</h2>
-        <pre><code class="javascript">
-        const olly: Ingriedient[] = [ 
-            Frontend Web Developer 💻, Skateboarder 🛹, Violinist 🎻, Cat Lover 🐈‍⬛🐈,
-            Sugar, Spice, ...everythingNice
-          ]
+        <pre><code id="typed-text" class="javascript">
+    
         </code></pre>
         
       
@@ -95,11 +92,21 @@ layout: page
 const injectionDiv = document.getElementById('inject-here');
 
   new TypeIt("#typed-text", {
-  strings: "Frontend Web Developer 💻, Skateboarder 🛹, Violinist 🎻, Cat Lover 🐈‍⬛🐈,",
   speed: 50,
-  }).go();
+  })
+  .type('const olly: Array<Ingredient> = [')
+    .break()
+  .type('    Designer, ')
+  .pause(300)
+  .type('Developer, ')
+  .pause(300)
+  .type('Cat Lover 😸,')
+  .pause(300)
+  .break()
+  .type('   Sugar, ')
+  .type('Spice, ')
+  .type('...everythingNice')
+  .break()
+  .type('];')
+  .go();
 </script>
-
-<link rel="stylesheet" href="/assets/css/dracula.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
