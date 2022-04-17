@@ -30,9 +30,9 @@ theme_settings:
         experience: Loughborough University, Computer Science, 1st Class Honours
     skills:
       - skill: React
-      - skill: Redux
+      - skill: Redux Toolkit
       - skill: JavaScript
-      - skill: Typescript
+      - skill: TypeScript
       - skill: Next.js
       - skill: React Native
       - skill: HTML5
@@ -44,6 +44,12 @@ theme_settings:
       - skill: Wordpress
       - skill: Docker
       - skill: npm
+    achievements:
+      - achievement: LEN Enterprising Society of the Year 2018
+      - achievement: Oxford Hack - Prize Winner
+      - achievement: Warwick Hack - Prize Winner
+      - achievement: Violin - Grade 5
+      - achievement: RSC Music Award - Silver
 
   # Icons
   icons:

@@ -64,6 +64,10 @@
       - JavaScript
       - Expression Engine
       - Employment
+      - React
+      - Express
+      - Node.js
+      - Firebase
     date: 2018.04.09
     title: Church Website
     description: Colligiate Church of St Mary Website Redesign
@@ -73,6 +77,14 @@
       - image: "stmarys.png"
       - description: Redesign
       - image: "stmarysnew.png"
+      - description: I developed an update to the website I redesigned in 2018. This system provided a method of accepting payment and providing tickets for events held at the venue. The website also features an admin view to manage and create events and tickets.
+      - description: This system is built using React, Express, MongoDB, Node, GraphQL and Stripe.
+      - description: Screenshots
+      - image: "events1.png"
+      - image: "events2.png"
+      - image: "events3.png"
+      - image: "events4.png"
+      - image: "events5.png"
 
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
@@ -94,30 +106,6 @@
       - image: "trainbrain3.png"
       - image: "trainbrain4.png"
       - image: "trainbrain5.png"
-
-- project:
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    image: "events1.png"
-    skills:
-      - React
-      - Express
-      - Node.js
-      - Firebase
-      - Employment
-    date: 2019.04.09
-    title: Events Ticketing System
-    description: Colligiate Church of St Mary Website Events Ticketing System
-
-    contents:
-      - description: I developed an update to the website I redesigned in 2018. This system provided a method of accepting payment and providing tickets for events held at the venue. The website also features an admin view to manage and create events and tickets.
-      - description: This system is built using React, Express, MongoDB, Node, GraphQL and Stripe.
-      - description: Screenshots
-      - image: "events1.png"
-      - image: "events2.png"
-      - image: "events3.png"
-      - image: "events4.png"
-      - image: "events5.png"
 
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
@@ -204,6 +192,7 @@
       - React
       - Typescript
       - Python
+      - Hackathon
 
     date: 2020.03.09
     title: Codelingo
