@@ -1,13 +1,11 @@
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    url: # Full URL
     image: "shakespeare.png"
     youtube: nCORNVuKsbA
     skills:
       - React Native
       - iOS
-      - A level
     date: 2019.07.09
     title: Shakespeare 400 Exhibition iPad App
     description: React Native iPad App to record visitor testimonials to Shakespeare
@@ -16,7 +14,6 @@
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    url: # Full URL
     image: "login.png"
     skills:
       - Android
@@ -42,7 +39,6 @@
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    url: # Full URL
     image: "socorro1.png"
     skills:
       - JavaScript
@@ -183,19 +179,31 @@
     description: Wordle Clone using Play store data on Kwalee's games
     contents:
       - description: Used Node.js to scrape Google Play data on Kwalee\’s games
+# - project:
+#     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
+#     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
+#     url: codelingo.olly.live
+#     skills:
+#       - React
+#       - Typescript
+#       - Python
+#       - Hackathon
 
-- project:
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
+#     date: 2020.03.09
+#     title: Codelingo
+#     description: Duolingo Clone that instead tests your coding ability
+#     contents:
+#       - description: Duolingo Clone that instead tests your coding ability
 
-    skills:
-      - React
-      - Typescript
-      - Python
-      - Hackathon
+# - project:
+#     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
+#     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
+#     url: denial.olly.live
+#     skills:
+#       - CSS
 
-    date: 2020.03.09
-    title: Codelingo
-    description: Duolingo Clone that instead tests your coding ability
-    contents:
-      - description: Duolingo Clone that instead tests your coding ability
+#     date: 2020.03.09
+#     title: DENIAL SHOP
+#     description: BigCartel custom theme
+#     contents:
+#       - description: BigCartel mobile responsive store theme made for friend
