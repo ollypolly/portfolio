@@ -7,7 +7,7 @@
       - React Native
       - iOS
       - A level
-    date: 2015.04.09
+    date: 2019.07.09
     title: Shakespeare 400 Exhibition iPad App
     description: React Native iPad App to record visitor testimonials to Shakespeare
     HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/nCORNVuKsbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -128,7 +128,7 @@
       - Typescript
 
     url: https://osrs.olly.live
-    date: 2015.04.09
+    date: 2020.04.09
     title: OSRS Fashion
     description: Website for creating and sharing Runescape loadouts
 
@@ -144,7 +144,7 @@
       - Redux Toolkit
       - Typescript
 
-    date: 2015.04.09
+    date: 2020.07.09
     title: PokéTrack
     description: Pokémon card collection tracker, used React Spring to achieve a physical feel to the cards
 
@@ -172,7 +172,7 @@
       - Firebase
       - Typescript
 
-    date: 2021.04.09
+    date: 2022.04.09
     title: Wedding Website
     description: Wedding RSVP and blog website made for family member
     contents:
@@ -189,7 +189,7 @@
       - Typescript
       - Node.js
 
-    date: 2021.04.09
+    date: 2022.02.09
     title: Kwordle
     description: Wordle Clone using Play store data on Kwalee's games
     contents:

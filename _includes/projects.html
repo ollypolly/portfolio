@@ -2,7 +2,7 @@
   <div class="project-wrap">
     <p class="title">PROJECTS 🙋🏻</p>
     <div class="card-container">
-      {% assign sorted = site.data.projects | sort: 'date' | reverse %} {% for _
+      {% assign sorted = site.data.projects | sort: 'project.date' | reverse %} {% for _
       in sorted %} {% assign project = _.project %} {% assign id = id | plus: 1
       %}
       <div class="card-wrapper">
