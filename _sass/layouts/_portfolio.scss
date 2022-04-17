@@ -10,11 +10,38 @@
       @extend %page-padding;
 
       pre {
+        margin: 2rem;
+        margin-left: 0;
+        min-width: 300px;
+        min-height: 100px;
         white-space: pre-wrap; /* css-3 */
         white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
         white-space: -pre-wrap; /* Opera 4-6 */
         white-space: -o-pre-wrap; /* Opera 7 */
         word-wrap: break-word; /* Internet Explorer 5.5+ */
+      }
+
+      @media (max-width: 576px) {
+        pre {
+          margin: 0;
+        }
+
+        code {
+          font-size: 0.8em;
+        }
+
+        .text-wrap {
+          margin: 1rem;
+        }
+      }
+
+      #typed-text {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          Liberation Mono, Courier New, monospace;
+
+        .indent {
+          margin-left: 10px;
+        }
       }
 
       .hljs {
@@ -40,6 +67,7 @@
       }
     }
     .text-wrap {
+      margin: 2rem;
       color: #fff;
       .description {
         margin: 10px 0;
