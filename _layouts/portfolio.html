@@ -7,25 +7,22 @@ layout: page
 <div id="protfolio">
   <section id="about-me">
     <div class="row">
-      <div class="img-wrap col-12 col-md-4">
+      <div class="img-wrap">
         <div class="img">
           <img src="{{ site.baseurl }}/{{ profile.image }}" alt="user_image">
         </div>
       </div>
-      <div class="text-wrap col-12 col-md-8">
+      <div class="text-wrap">
         <h2 class="username">{{ profile.username }}</h2>
         <pre><code id="typed-text" class="javascript">
-    
         </code></pre>
-        
-      
-
         <ul id="icons">
           {% include icons.html %}
         </ul>
       </div>
     </div>
     <div class="bg"></div>
+    <div class="bg-overlay"></div>
   </section>
   <!-- career section -->
   <section id="career" class="row">
@@ -48,7 +45,7 @@ layout: page
           <p class="name">{{ _.skill }}</p>
           <div class="progress">
             <div class="progress-bar" style="width: {{ _.value }}%">
-              <div class="progress-value">{{ _.value }}%</div>
+              <div class="progress-value"></div>
             </div>
           </div>
         </li>
@@ -92,18 +89,18 @@ layout: page
 const injectionDiv = document.getElementById('inject-here');
 
   new TypeIt("#typed-text", {
-  speed: 50,
+  speed: 30,
   })
   .type('const olly: Array<Ingredient> = [')
-    .break()
-  .type('    Designer, ')
-  .pause(300)
-  .type('Developer, ')
-  .pause(300)
-  .type('Cat Lover 😸,')
-  .pause(300)
   .break()
-  .type('   Sugar, ')
+  .type('    Designer, ')
+  .pause(200)
+  .type('Developer, ')
+  .pause(200)
+  .type('Cat Lover 😸,')
+  .pause(200)
+  .break()
+  .type('    Sugar, ')
   .type('Spice, ')
   .type('...everythingNice')
   .break()

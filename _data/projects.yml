@@ -2,30 +2,13 @@
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
     url: # Full URL
-    image: # path: assets/project/
-    date: 2015.07.23
-    title: RSPCA Mileage Tracker
-    description: A level Computer poject made in JavaScript
-    skills:
-      - JavaScript
-      - A level
-    contents:
-      - description: For my A level computing project I took on a project converting an existing paper mileage tracking system that was currently in use by my Father at the time into a digital format.
-      - image: "rspca2.png"
-      - description: This allowed the entering of mileage information from either a smart phone or a pc, making the process easier. This was later digitized by the RSPCA in a similar way through the use of google forms.
-      - image: "rspca3.png"
-      - description: To achieve this I created a HTML, CSS, JavaScript using firebase as a backend. The application would produce a paper pdf claim form to then be submitted to RSPCA.
-
-- project:
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    url: # Full URL
-    image: # path: assets/project/
+    image: "shakespeare.png"
+    youtube: nCORNVuKsbA
     skills:
       - React Native
       - iOS
       - A level
-    date: 2015.04.09
+    date: 2019.07.09
     title: Shakespeare 400 Exhibition iPad App
     description: React Native iPad App to record visitor testimonials to Shakespeare
     HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/nCORNVuKsbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -34,25 +17,11 @@
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
     url: # Full URL
-    image: # path: assets/project/
+    image: "login.png"
     skills:
-      - JavaScript
-      - 1st Year
-    date: 2017.04.09
-    title: Music Player
-    description: Web Music Player with on screen keyboard
-    contents:
-      - description: During my first year of univerisity I developed a web music player that featured an on screen keyboard that could also be triggered automatically using the keyboard.
-      - image: "musicplayer.png"
-      - description: The player also featured a search function for searching for songs or albums.
-
-- project:
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    url: # Full URL
-    image: # path: assets/project/
-    skills:
-      - JavaScript
+      - Android
+      - Java
+      - Firebase
       - 1st Year
     date: 2018.04.09
     title: Dreamr
@@ -74,7 +43,7 @@
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
     url: # Full URL
-    image: # path: assets/project/
+    image: "socorro1.png"
     skills:
       - JavaScript
       - PHP
@@ -110,9 +79,9 @@
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
     image: "trainbrain2.png"
     skills:
-      - JavaScript
-      - 3rd Year
       - React
+      - Firebase
+      - 3rd Year
     date: 2019.04.09
     title: TrainBrain
     description: National/Network Rail Services Analytics Website
@@ -129,12 +98,12 @@
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    image: # path: assets/project/
+    image: "events1.png"
     skills:
       - React
       - Express
-      - MongoDB
       - Node.js
+      - Firebase
       - Employment
     date: 2019.04.09
     title: Events Ticketing System
@@ -153,14 +122,14 @@
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    image: # path: assets/project/
+    image: "osrs.png"
     skills:
       - React
       - Redux Toolkit
       - Typescript
 
     url: https://osrs.olly.live
-    date: 2015.04.09
+    date: 2020.04.09
     title: OSRS Fashion
     description: Website for creating and sharing Runescape loadouts
 
@@ -169,21 +138,21 @@
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    image: # path: assets/project/
+    image: "poketrack.png"
     url: https://poketrack.olly.live
     skills:
       - React
       - Redux Toolkit
       - Typescript
 
-    date: 2015.04.09
+    date: 2020.07.09
     title: PokéTrack
     description: Pokémon card collection tracker, used React Spring to achieve a physical feel to the cards
 
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    image: # path: assets/project/
+    image: "chapter.png"
     skills:
       - Expo
       - React Native
@@ -197,14 +166,14 @@
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    image: # path: assets/project/
+    image: "wedding.png"
     skills:
       - Next.js
       - Prismic
       - Firebase
       - Typescript
 
-    date: 2021.04.09
+    date: 2022.04.09
     title: Wedding Website
     description: Wedding RSVP and blog website made for family member
     contents:
@@ -214,14 +183,14 @@
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    image: # path: assets/project/
+    image: "kwordle.png"
     url: https://kwordle.olly.live
     skills:
       - React
       - Typescript
       - Node.js
 
-    date: 2021.04.09
+    date: 2022.02.09
     title: Kwordle
     description: Wordle Clone using Play store data on Kwalee's games
     contents:

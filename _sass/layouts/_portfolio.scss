@@ -10,11 +10,39 @@
       @extend %page-padding;
 
       pre {
+        margin: 2rem;
+        margin-left: 0;
+        min-width: 400px;
+        min-height: 100px;
         white-space: pre-wrap; /* css-3 */
         white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
         white-space: -pre-wrap; /* Opera 4-6 */
         white-space: -o-pre-wrap; /* Opera 7 */
         word-wrap: break-word; /* Internet Explorer 5.5+ */
+      }
+
+      @media (max-width: 576px) {
+        pre {
+          min-width: 300px;
+          margin: 0;
+        }
+
+        code {
+          font-size: 0.8em;
+        }
+
+        .text-wrap {
+          margin: 1rem;
+        }
+      }
+
+      #typed-text {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          Liberation Mono, Courier New, monospace;
+
+        .indent {
+          margin-left: 10px;
+        }
       }
 
       .hljs {
@@ -28,7 +56,9 @@
     }
     .img-wrap {
       text-align: center;
+
       .img {
+        box-shadow: rgba($theme-dark2, 0.15) 0px 1px 5px;
         overflow: hidden;
         display: inline-block;
         width: 180px;
@@ -40,6 +70,7 @@
       }
     }
     .text-wrap {
+      margin: 2rem;
       color: #fff;
       .description {
         margin: 10px 0;
@@ -71,6 +102,15 @@
       height: calc(100% + 110px);
       top: -55px;
       background-color: $theme-dark;
+    }
+    .bg-overlay {
+      content: "";
+      z-index: -1;
+      position: absolute;
+      width: 100%;
+      height: calc(100% + 110px);
+      top: -55px;
+      background-color: rgba(0, 0, 0, 0.5);
     }
   }
   #career {
@@ -188,4 +228,10 @@
       }
     }
   }
+}
+
+iframe {
+  /* override other styles to make responsive */
+  width: 100% !important;
+  height: 400px !important;
 }
