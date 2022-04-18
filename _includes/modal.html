@@ -14,15 +14,7 @@
       {% if project.image and project.title != 'Shakespeare 400 Exhibition iPad
       App' %}
       <img src="/assets/project/{{ project.image }}" alt="" />
-      {% endif%} {% if project.youtube %}
-      <iframe
-        src="https://www.youtube.com/embed/{{ project.youtube }}"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-      {% endif %}
+      {% endif%}
       <div class="description">{{ project.description }}</div>
       {% for content in project.contents %}
       <div class="sub-content">
@@ -35,7 +27,15 @@
         {% endif %}
         <div class="description">{{ content.description }}</div>
       </div>
-      {% endfor %}
+      {% endfor %} {% if project.youtube %}
+      <iframe
+        src="https://www.youtube.com/embed/{{ project.youtube }}"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      {% endif %}
     </div>
   </div>
 </div>
