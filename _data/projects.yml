@@ -119,6 +119,10 @@
 
     contents:
       - description: I added virtualisation to the dropdown list of items due to the large number of items possible in each slot
+      - image: "osrs1.png"
+      - description: Query parameters allow for ease of sharing of loadouts
+      - description: I provided example loadouts for the user to see
+      - image: "osrs2.png"
 
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
@@ -132,7 +136,14 @@
 
     date: 2020.07.09
     title: PokéTrack
-    description: Pokémon card collection tracker, used React Spring to achieve a physical feel to the cards
+    description: Pokémon card collection tracker
+    content:
+      - description: I used React Spring to achieve a physical feel to the cards
+      - image: "poketrack1.png"
+      - description: Users can backup and restore their collection through a json file
+      - image: "poketrack2.png"
+      - description: Users can add and remove cards from their collection and view prices of cards using a provided TCGPlayer link
+      - image: "poketrack3.png"
 
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
@@ -147,11 +158,21 @@
     date: 2021.10.09
     title: Chapter
     description: Social reading tracker iOS app similar to Strava
+    contents:
+      - description: I developed a mobile app for iOS using React Native and Expo. This app allows users to create and share reading activities of books, and allows them to track their progress.
+      - image: "chapter1.png"
+      - description: The app supported both light and dark mode.
+      - image: "chapter2.png"
+      - description: I used the OpenLibrary API to get the cover art of the books.
+      - image: "chapter3.png"
+      - description: The app allowed you to add books to your collection by scanning the barcode.
+      - image: "chapter4.png"
 
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
     image: "wedding.png"
+    url: https://rachelandkieran.com
     skills:
       - Next.js
       - Prismic
@@ -164,6 +185,8 @@
     contents:
       - description: Account system to allow users to log in and RSVP to Ceremony/Reception
       - description: Uses Prismic as CMS to provide feature rich page builder for client utilising slice machine
+      - description: I used Firebase's email link sign in to allow users to quickly sign in and RSVP to the wedding, keeping it secure without the need to remember a password
+      - description: Invitations will be sent out to the wedding guests via email, using Mailchimp
 
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
@@ -179,7 +202,11 @@
     title: Kwordle
     description: Wordle Clone using Play store data on Kwalee's games
     contents:
-      - description: Used Node.js to scrape Google Play data on Kwalee\’s games
+      - description: I used Node.js to scrape Google Play data on Kwalee’s games and store it in a JSON file.
+      - description: I used React to display the data in a Wordle style grid
+      - image: "kwordle1.png"
+      - description: The project was featured on the company twitter account
+      - image: "kwordle2.png"
 # - project:
 #     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
 #     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
