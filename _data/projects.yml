@@ -8,8 +8,10 @@
       - iOS
     date: 2019.07.09
     title: Shakespeare 400 Exhibition iPad App
-    description: React Native iPad App to record visitor testimonials to Shakespeare
+    description: React Native iPad App
     HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/nCORNVuKsbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    contents:
+      - description: I created an iOS iPad app using React Native for visitors to speak about Shakespeare and what he means to them. I later compiled some of these into a video using Final Cut Pro to be uploaded to the website.
 
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
@@ -47,9 +49,17 @@
       - 2nd Year
     date: 2018.04.09
     title: Socorro
-    description: Help Desk Application
+    description: Wordpress Help Desk Application
 
     contents:
+      - description: As part of a 2nd Year Group project, I led a team of 5 people to design and develop a dynamic web help desk application for managing software and hardware issues in a company.
+      - image: "socorro2.png"
+      - description: The application was then rebuilt using Wordpress as part of the second half of the module.
+      - image: "socorro3.png"
+      - description: The application allowed users to create tickets and assign them to a technician.
+      - image: "socorro4.png"
+      - description: The application allowed users to view their tickets and reply to them.
+      - image: "socorro5.png"
 
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
@@ -137,7 +147,7 @@
     date: 2020.07.09
     title: PokéTrack
     description: Pokémon card collection tracker
-    content:
+    contents:
       - description: I used React Spring to achieve a physical feel to the cards
       - image: "poketrack1.png"
       - description: Users can backup and restore their collection through a json file
