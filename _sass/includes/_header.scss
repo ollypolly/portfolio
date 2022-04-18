@@ -23,12 +23,17 @@ header {
         margin: 0 auto;
         border: 1px solid !important;
       }
-      .current.btn-nav:hover {
-        color: $theme-color;
-      }
+
       .btn-nav {
+        transition-duration: 0.2s;
         strong {
           color: $theme-color;
+        }
+      }
+      .current.btn-nav:hover {
+        color: $theme-color;
+        strong {
+          color: $theme-dark;
         }
       }
       .btn-nav::after {
