@@ -70,10 +70,6 @@
       - JavaScript
       - Expression Engine
       - Employment
-      - React
-      - Express
-      - Node.js
-      - Firebase
     date: 2018.04.09
     title: Church Website
     description: Colligiate Church of St Mary Website Redesign
@@ -182,7 +178,6 @@
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
     image: "wedding.png"
-    url: https://rachelandkieran.com
     skills:
       - Next.js
       - Prismic
