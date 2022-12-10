@@ -13,8 +13,11 @@ theme_settings:
     username: Olly Pethick
     description: Frontend Web Developer
     experience:
-      - start: 2021-11-01
+      - start: 2022-12-05
         end: Present
+        experience: abrdn, React Developer
+      - start: 2021-11-01
+        end: 2022-11-18
         experience: Kwalee, Frontend Web Developer
 
       - start: 2019-09-01
